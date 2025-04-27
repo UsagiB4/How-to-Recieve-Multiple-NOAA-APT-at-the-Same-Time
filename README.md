@@ -24,14 +24,24 @@ Before recording data, I setup my ***SDR++*** as below:
   - Select `2.048MHz` from **Sample Rate**
   - Check The **RTL AGC**
   - Increase the Gain as much as you need but don't over do it.
+
+![Screenshot of source](source.png)
+>>source
+
 - *From `Radio` option*
   - Select **NFM**
   - Bandwidth **50000** (highest)
   - Check the **IF Noise Reduction** and Select `NOAA APT`
+
+![screenshot of radio](radio.png)
+
+
 - *From `Recorder` option*
   - Select **Baseband**
   - Select output directory.
   - Sample type must be **int16**
+
+![screenshot of recording](recording.png)
 
 That will be all.
 When The satellites passes over the head, Hit record. This will generate a large `.wav` file.
