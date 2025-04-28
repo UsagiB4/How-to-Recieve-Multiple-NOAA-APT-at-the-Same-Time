@@ -45,3 +45,15 @@ Before recording data, I setup my ***SDR++*** as below:
 
 That will be all.
 When The satellites passes over the head, Hit record. This will generate a large `.wav` file.
+
+#### > Now it's time to get those data.
+
+For that open SDR++ again but from source select **File** and then select the `.wav` file of baseband.
+
+![Baseband setting](usingbaseband.png)
+
+Now press the play button and go to **Recorder**
+- select `Audio`
+- Start recording.
+
+You have to select the relative frequency for NOAA sats.
